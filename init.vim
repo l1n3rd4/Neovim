@@ -1,10 +1,5 @@
-set hidden
-set number
-
-call plug#begin()
-Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
-Plug 'rstacruz/vim-closer'
-Plug 'jiangmiao/auto-pairs'
-call plug#end()
-
-map <C-n> :NERDTreeToggle <CR>
+source $HOME/.config/nvim/vim-plug/plugins.vim
+source $HOME/.config/nvim/themes/onedark.vim
+source $HOME/.config/nvim/plug-config/coc.vim
+source $HOME/.config/nvim/themes/airline.vim
+source $HOME/.config/nvim/plug-config/signify.vim 
